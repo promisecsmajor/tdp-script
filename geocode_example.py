@@ -3,7 +3,7 @@ import googlemaps
 from datetime import datetime
 
 # Enter your API key for Google Maps API
-gmaps = googlemaps.Client(key='AIzaSyBfoSVKjcetCun1UE7o6K-fggDIYNhkMxI')
+gmaps = googlemaps.Client(key='YOUR_API_KEY')
 
 # Open the file containing the beacons data and read it into a list
 beacons = []
