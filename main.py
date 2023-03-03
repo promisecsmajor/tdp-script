@@ -30,7 +30,7 @@ def match_function(initial_beacon_list, initial_candidate_list, match_list):
         return(remaining_cans,match_list)
 
     print("Unmatched beacons and candidates still exist.")
-
+    
 
     # Match candidates to beacons who share tracks, and capture leftover candidates and beacons
     print("\n")
@@ -135,7 +135,7 @@ beacon_matches = {}
 for beacon in beacons:
     beacon_matches[beacon['name']] = []
 
-# First run: beacons, candidates, empty match list, 1
+# First run: beacons, candidates, empty match list
 r1_leftover_cans = None
 #function should return a remaining candidates list, a further completed match list
 print("\n")
@@ -168,5 +168,3 @@ print("\n")
 print("FINAL MATCHINGS:")
 for beacon,candidates in beacon_matches.items():
     print(beacon + ': ' + str(candidates))
-
-
