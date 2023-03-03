@@ -136,10 +136,10 @@ for beacon in beacons:
     beacon_matches[beacon['name']] = []
 
 
-print("\n")
 print("Total Candidates: " + str(len(candidates)))
 print("Total Beacons: " + str(len(beacons)))
 print("\n")
+
 # First run: beacons, candidates, empty match list
 # Function should return a remaining candidates list, a further completed match list
 r1_leftover_cans = []
