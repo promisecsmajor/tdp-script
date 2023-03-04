@@ -1,7 +1,7 @@
 import csv
 import googlemaps
 # Enter your API key for Google Maps API
-gmaps = googlemaps.Client(key='AIzaSyBfoSVKjcetCun1UE7o6K-fggDIYNhkMxI')
+gmaps = googlemaps.Client(key='INSERT_YOUR_API_KEY_HERE')
 
 # function to match candidates and beacons by their colleges' proximity
 # function accepts a list of candidates, a list of beacons, and a match list it can append to
