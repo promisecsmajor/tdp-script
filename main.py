@@ -190,18 +190,17 @@ beacon_matches = {}
 for beacon in beacons:
     beacon_matches[beacon['name']] = []
 
-# First run: beacons, candidates, empty match list
-r1_leftover_cans = None
-#function should return a remaining candidates list, a further completed match list
-print("\n")
+
 print("Total Candidates: " + str(len(candidates)))
 print("Total Beacons: " + str(len(beacons)))
 print("\n")
+
+# First run: beacons, candidates, empty match list
+# Function should return a remaining candidates list, a further completed match list
+r1_leftover_cans = []
 r1_leftover_cans, beacon_matches = match_function(beacons,candidates,beacon_matches)
 print("\n")
 print("All beacons have been assigned at least 1 candidate.")
-#print("Current matchings:")
-#print(beacon_matches)
 print("Resetting each beacon's availability...")
 for beacon in beacons:
     beacon['beaconettes'] = 0
