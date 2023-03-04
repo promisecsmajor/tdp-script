@@ -25,7 +25,6 @@ def college_proximity_match(candidates,beacons,match_list):
             if distance < closest_distance:
                 closest_beacon = beacon
                 closest_distance = distance
-                print(distance)
         if closest_beacon:
             match_list[closest_beacon['name']].append([candidate['name']])      # adds pairing to the match list
             closest_beacon['beaconettes'] = '1'
