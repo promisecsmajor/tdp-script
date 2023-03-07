@@ -1,9 +1,9 @@
-name,college,location,hub_location,title,beaconettes
-Promise O,University of Texas at San Antonio,One UTSA Circle San Antonio TX 78249,Dallas,SE,0
-Aman T,University of Texas at Austin,110 Inner Campus Drive Stop G0400 Austin TX 78712,Dallas,SE,0
-Jewel B,Southern Methodist University,6425 Boaz Lane Dallas TX 75205,Atlanta,NEO,0
-Avery M,Northwestern,One UTSA Circle San Antonio TX 78249,Dallas,SE,0
-Ambroise A,Harvard,110 Inner Campus Drive Stop G0400 Austin TX 78712,Dallas,SE,0
-Shriya S,Southern Methodist University,6425 Boaz Lane Dallas TX 75205,Atlanta,NEO,0
-Sydney L,University of Texas at San Antonio,One UTSA Circle San Antonio TX 78249,Dallas,TBM,0
-Daniela G,University of Texas at Dallas,1100 Congress Ave. Austin TX 78701,Dallas,NEO,0
+name,college,hub_location,title,beaconettes
+Promise O,University of Texas at San Antonio,Dallas,SE,0
+Aman T,University of Texas at Austin,Dallas,SE,0
+Jewel B,Southern Methodist University,Atlanta,NEO,0
+Avery M,Northwestern University,Dallas,SE,0
+Ambroise A,Harvard University,Dallas,SE,0
+Shriya S,Baylor University,Atlanta,NEO,0
+Sydney L,University of Texas at San Antonio,Dallas,TBM,0
+Daniela G,University of Texas at Dallas,Dallas,NEO,0

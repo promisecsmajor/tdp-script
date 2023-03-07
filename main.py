@@ -15,9 +15,9 @@ def college_proximity_match(candidates,beacons,match_list):
         for beacon in beacons:
             if beacon['hub_location'] != candidate['hub_location'] or int(beacon['beaconettes']) > 0:
                 continue  
-            college_geocode = gmaps.geocode(candidate['location'])
+            college_geocode = gmaps.geocode(candidate['college'])
             college_location = college_geocode[0]['geometry']['location']
-            beacon_geocode = gmaps.geocode(beacon['location'])
+            beacon_geocode = gmaps.geocode(beacon['college'])
             beacon_location = beacon_geocode[0]['geometry']['location']
             # Calculate the distance between the colleges
             distance = gmaps.distance_matrix(college_location, beacon_location)['rows'][0]['elements'][0]['distance']['value']
