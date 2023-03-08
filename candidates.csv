@@ -1,17 +1,17 @@
-name,college,location,hub_location,title,beacon
-Candidate 1,University of Texas at San Antonio,One UTSA Circle San Antonio TX 78249,Dallas,SE,None
-Candidate 2,University of Incarnate Ward,4301 Broadway San Antonio TX 78209,Dallas,SE,None
-Candidate 3,University of Texas at Austin,110 Inner Campus Drive Stop G0400 Austin TX 78712,Dallas,TBM,None
-Candidate 4,Southern Methodist University,6425 Boaz Lane Dallas TX 75205,Atlanta,NEO,None
-Candidate 5,Harvard,One UTSA Circle San Antonio TX 78249,Dallas,SE,None
-Candidate 6,Northwestern,4301 Broadway San Antonio TX 78209,Dallas,SE,None
-Candidate 7,University of Texas at Austin,110 Inner Campus Drive Stop G0400 Austin TX 78712,Dallas,TBM,None
-Candidate 8,Southern Methodist University,6425 Boaz Lane Dallas TX 75205,Atlanta,NEO,None
-Candidate 9,University of Texas at San Antonio,One UTSA Circle San Antonio TX 78249,Dallas,SE,None
-Candidate 10,University of Incarnate Ward,4301 Broadway San Antonio TX 78209,Dallas,SE,None
-Candidate 11,University of Texas at Austin,110 Inner Campus Drive Stop G0400 Austin TX 78712,Dallas,TBM,None
-Candidate 12,Southern Methodist University,6425 Boaz Lane Dallas TX 75205,Atlanta,NEO,None
-Candidate 13,Harvard,One UTSA Circle San Antonio TX 78249,Dallas,SE,None
-Candidate 14,Florida State University,4301 Broadway San Antonio TX 78209,Dallas,DA,None
-Candidate 15,University of Texas at Austin,110 Inner Campus Drive Stop G0400 Austin TX 78712,Dallas,TBM,None
-Candidate 16,Southern Methodist University,6425 Boaz Lane Dallas TX 75205,Atlanta,NEO,None
+name,college,hub_location,title,beacon
+Candidate 1,University of Texas at San Antonio,Dallas,SE,None
+Candidate 2,University of Incarnate Ward,Dallas,SE,None
+Candidate 3,University of Texas at Austin,Dallas,TBM,None
+Candidate 4,Southern Methodist University,Atlanta,NEO,None
+Candidate 5,Harvard University,Dallas,SE,None
+Candidate 6,Northwestern University,Dallas,SE,None
+Candidate 7,University of Texas at Austin,Dallas,TBM,None
+Candidate 8,Southern Methodist University,Atlanta,NEO,None
+Candidate 9,University of Texas at San Antonio,Dallas,SE,None
+Candidate 10,University of Incarnate Ward,Dallas,SE,None
+Candidate 11,University of Texas at Austin,Dallas,TBM,None
+Candidate 12,Southern Methodist University,Atlanta,NEO,None
+Candidate 13,Harvard University,Dallas,SE,None
+Candidate 14,Northwestern University,Atlanta,DA,None
+Candidate 15,University of Texas at Austin,Dallas,TBM,None
+Candidate 16,Southern Methodist University,Atlanta,NEO,None
